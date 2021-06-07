@@ -1,0 +1,44 @@
+.App {
+  margin: 3rem auto;
+
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  align-items: center;
+}
+.MuiTypography-h5 {
+  margin: 0.7rem 0 !important;
+  text-align: center;
+}
+/* Overriding in Table Container CSS */
+.MuiTableContainer-root {
+  margin-top: 8rem !important;
+}
+.MuiAppBar-colorPrimary {
+  background-color: #62d9ff !important;
+}
+
+.main-container {
+  width: 100%;
+  position: relative;
+}
+
+.MuiAppBar-root {
+  flex-direction: row !important;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.search-input {
+  display: flex;
+  align-items: center;
+  background-color: #f1faee;
+  border-radius: 0.5rem;
+}
+.MuiFormControl-root {
+  width: 300px;
+}
+
+.MuiTablePagination-root {
+  width: 95%;
+  overflow: visible !important;
+}
